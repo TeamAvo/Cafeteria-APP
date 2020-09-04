@@ -25,6 +25,7 @@
     "android": {
       "package": "com.teamavo.avonfood",
       "versionCode": 1
-    }
+    },
+    "scheme": "storagerelay"
   }
 }
