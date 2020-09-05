@@ -2,11 +2,11 @@
   "expo": {
     "name": "Avon Food",
     "slug": "AvonFood",
-    "version": "1.0.0",
+    "version": "1.0.5",
     "orientation": "portrait",
-    "icon": "./assets/AvonFood.png",
+    "icon": "./assets/AvonFood_Android.png",
     "splash": {
-      "image": "./assets/AvonFood.png",
+      "image": "./assets/AvonFood_Splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#121212"
     },
@@ -15,17 +15,16 @@
     },
     "assetBundlePatterns": ["**/*"],
     "web": {
-      "favicon": "./assets/AvonFood.png"
+      "favicon": "./assets/AvonFood_Android.png"
     },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.teamavo.avonfood",
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.5"
     },
     "android": {
       "package": "com.teamavo.avonfood",
       "versionCode": 1
-    },
-    "scheme": "storagerelay"
+    }
   }
 }
